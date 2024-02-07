@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=nunito:wght@200;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "nunito", Arial;
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:beige;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#heading-container {
+    width: 50%;
+}
+
+.name-address {
+    display: flex;
+    gap: 20px;
+}
+
+input, textarea {
+    padding: 10px 0px;
+    border: 0;
+    border-bottom: 1px solid #333;
+    background: none;
+    width: 100%;
+    margin-bottom: 20px;
+    resize: none;
+}
+input:focus, textarea:focus {
+    border: 0;
+    border-bottom: 1px solid brown;
+    outline: 0;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}

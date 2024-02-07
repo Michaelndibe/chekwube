@@ -1,0 +1,24 @@
+/* Universal selectors */
+@import url("https://fonts.googleapis.com/css?family=poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+/* this is the body styling whch contains basically the background image and other styling to make the background image to match the page we are building */
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: initial;
+  width: 45%;
+  margin: auto;
+  height: 100%;
+  color: white;

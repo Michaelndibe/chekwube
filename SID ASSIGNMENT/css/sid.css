@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+
+}
+
+.account{
+    margin-bottom: 1rem;
+    
+}
+
+.background img{
+    width: 1440px;
+    height: 1024px;
+    top: -513;
+    left: -720;
+    position: absolute;
+}
+
+.lotion-form{
+    position: relative;
+    width: 589px;
+    height: 883px;
+    top:70px;
+    left: 23px;
+    border-radius: 10px;
+    background-color:burlywood 38%;
+}
+
+.first-div{
+    width: 346px;
+    height: 694px;
+    top: 94px;
+    left: 121px;
+    position: relative;
+}
+
+.sp1, .sp2, .sp3, .sp4, .sp5{
+    width: 345px;
+    height: 48px;
+    top: 94px;
+    left: 1px;
+    border-radius: 8px;
+    border: 1px;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    font-size: 25px;
+
+
+}
+
+.sp7{
+    width: 345px;
+    height: 48px;
+    top: 94px;
+    left: 1px;
+    border-radius: 8px;
+    border: 1px;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    top: 596px;
+    background-color: #ffffff;
+    border-color: #6da01e;
+}
+
+.sp6{
+    width: 345px;
+    height: 48px;
+    top: 94px;
+    left: 1px;
+    border-radius: 8px;
+    border: 1px;
+    background-color: #6da01e;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;    
+}
+
+.sp6 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.sp7 a{
+    text-decoration: none;
+    color: #6da01e;
+    width: 160px;
+    height: 24px;
+    top: 12px;
+    left: 73px;
+    padding-right: 1.5rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+p a{
+    text-decoration: none;
+    color: #6da01e;
+}
+
+.off{
+    margin-left: 300px;
+}
+
+.google{
+    width: 20.74px;
+    height: 16.42px;
+    top: 1.5px;
+    left: 2.64px;
+    align-items: flex-end;
+}
